@@ -1,0 +1,44 @@
+.cta {
+  max-width: 560px;
+  padding: 0 0 65px;
+}
+
+.cta-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.cta-text p {
+  padding-bottom: 17px;
+  line-height: 1.4;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.cta-title {
+  color: var(--primary-color);
+  font-family: "Merrieweather Sans";
+  font-weight: 700;
+  font-size: 56px;
+  padding-bottom: 27px;
+}
+
+.cta-subtitle {
+  color: var(--text-h2-main);
+  padding-top: 23px;
+  padding-bottom: 30px;
+  font-size: 22px;
+}
+
+.cta-img {
+  filter: var(--img-shadow);
+  border-radius: 5px;
+}
+
+@media (min-width: 992px) {
+  .cta-text {
+    margin: 0;
+  }
+}
