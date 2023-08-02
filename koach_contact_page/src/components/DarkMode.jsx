@@ -5,7 +5,7 @@ import { darkModeBtn } from "../assets";
 
 const DarkMode = () => {
   const [selectedTheme, setSelectedTheme] = useState(
-    localStorage.getItem("selectedTheme")
+    localStorage.getItem("selectedTheme") || "light"
   );
 
   useEffect(() => {
