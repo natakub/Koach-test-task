@@ -1,0 +1,11 @@
+.dark-mode-btn {
+  display: none;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .dark-mode-btn {
+    display: block;
+  }
+}
