@@ -39,7 +39,7 @@ const DarkMode = () => {
       src={darkModeBtn}
       className={styles["dark-mode-btn"]}
       onClick={toggleTheme}
-      checked={selectedTheme === "light"}
+      checked={selectedTheme === "dark"}
     />
   );
 };
