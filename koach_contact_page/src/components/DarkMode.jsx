@@ -35,12 +35,13 @@ const DarkMode = () => {
   };
 
   return (
-    <ReactSVG
-      src={darkModeBtn}
+    <div
       className={styles["dark-mode-btn"]}
       onClick={toggleTheme}
-      checked={"data-theme" === selectedTheme}
-    />
+      defaultChecked={selectedTheme === "light"}
+    >
+      <ReactSVG src={darkModeBtn} />
+    </div>
   );
 };
 
