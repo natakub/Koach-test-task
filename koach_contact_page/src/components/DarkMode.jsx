@@ -28,9 +28,9 @@ const DarkMode = () => {
 
   const toggleTheme = () => {
     if (selectedTheme === "light") {
-      setSelectedTheme("dark");
-    } else {
       setSelectedTheme("light");
+    } else {
+      setSelectedTheme("dark");
     }
   };
 
