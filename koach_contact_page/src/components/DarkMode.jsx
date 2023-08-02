@@ -9,10 +9,10 @@ const DarkMode = () => {
   );
 
   useEffect(() => {
-    if (selectedTheme === "light") {
-      setLightMode();
-    } else {
+    if (selectedTheme === "dark") {
       setDarkMode();
+    } else {
+      setLightMode();
     }
   }, [selectedTheme]);
 
